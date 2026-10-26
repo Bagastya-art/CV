@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Pribadi | Profil Saya</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f0f4f8;
+            color: #263238;
+            line-height: 1.7;
+        }
+
+        header {
+            background: linear-gradient(135deg, #102a43, #247ba0);
+            color: white;
+            text-align: center;
+            padding: 45px 20px;
+        }
+
+        header h1 {
+            font-size: 32px;
+            margin: 12px 0;
+        }
+
+        header p {
+            color: #d9f0ff;
+        }
+
+        nav {
+            background: #0b1f33;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 12px;
+            font-size: 14px;
+        }
+
+        nav a:hover {
+            color: #72ddf7;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 0 18px;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            margin-bottom: 22px;
+            border-radius: 14px;
+            box-shadow: 0 4px 15px #0000000d;
+        }
+
+        h2 {
+            color: #176b87;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #d9edf5;
+            padding-bottom: 8px;
+        }
+
+        .profile {
+            text-align: center;
+        }
+
+        .profile img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 5px solid #d9edf5;
+            margin-bottom: 12px;
+        }
+
+        .profile h3 {
+            font-size: 24px;
+            color: #102a43;
+        }
+
+        ul {
+            padding-left: 25px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        th, td {
+            border: 1px solid #d5e0e8;
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background: #176b87;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background: #f0f7fa;
+        }
+
+        .social a {
+            display: inline-block;
+            background: #176b87;
+            color: white;
+            text-decoration: none;
+            padding: 9px 15px;
+            margin: 5px;
+            border-radius: 8px;
+        }
+
+        .social a:hover {
+            background: #102a43;
+        }
+
+        footer {
+            text-align: center;
+            background: #0b1f33;
+            color: white;
+            padding: 22px;
+            margin-top: 30px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 25px;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 5px;
+            }
+
+            .card {
+                padding: 18px;
+            }
+
+            th, td {
+                padding: 8px;
+                font-size: 13px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- BAGIAN HEADER -->
+    <header>
+        <h1>MY PERSONAL PROFILE</h1>
+        <p>CV Pribadi | Kenali Saya Lebih Dekat</p>
+    </header>
+
+    <!-- MENU NAVIGASI -->
+    <nav>
+        <a href="#profil">Profil</a>
+        <a href="#tentang">Tentang Saya</a>
+        <a href="#pendidikan">Pendidikan</a>
+        <a href="#cita-cita">Cita-Cita</a>
+        <a href="#kontak">Kontak</a>
+    </nav>
+
+    <main class="container">
+
+        <!-- PROFIL PRIBADI -->
+        <section class="card profile" id="profil">
+            <img
+                src="c:\Users\komputer10\Downloads\pap.jpg"
+                alt="Foto profil pribadi">
+
+            <h3>BAGASTYA EVANDRA FILLAH</h3>
+            <p>Pelajar | Calon Generasi Sukses</p>
+            <p>📍 Indonesia</p>
+        </section>
+
+        <!-- TENTANG SAYA -->
+        <section class="card" id="tentang">
+            <h2>👋 Tentang Saya</h2>
+            <p>
+                Halo! Perkenalkan, nama saya <b>BAGASTYA</b>.
+                Saya adalah seorang pelajar yang memiliki semangat
+                untuk belajar, mencoba hal baru, dan mengembangkan
+                kemampuan diri. Saya percaya bahwa setiap pengalaman
+                merupakan kesempatan untuk menjadi lebih baik.
+            </p>
+        </section>
+
+        <!-- HOBI DAN KEMAMPUAN -->
+        <section class="card">
+            <h2>⭐ Hobi dan Minat</h2>
+            <ul>
+                <li>Memancing</li>
+                <li>Mendengarkan musik</li>
+                <li>Bermain game</li>
+                <li>Mempelajari hal-hal baru</li>
+            </ul>
+
+            <h2 style="margin-top: 22px;">💻 Kemampuan</h2>
+            <ul>
+                <li>Mengoperasikan komputer dasar</li>
+                <li>Bekerja sama dalam tim</li>
+                <li>Kreatif dan bertanggung jawab</li>
+                <li>Belajar dasar pemrograman HTML</li>
+            </ul>
+        </section>
+
+        <!-- PENDIDIKAN -->
+        <section class="card" id="pendidikan">
+            <h2>🎓 Riwayat Pendidikan</h2>
+
+            <table>
+                <tr>
+                    <th>No.</th>
+                    <th>Jenjang</th>
+                    <th>Nama Sekolah</th>
+                    <th>Tahun</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>SD</td>
+                    <td>MI Ma'arif Nurul Haromain</td>
+                    <td>2013–2019</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>SMP</td>
+                    <td>MTS Ma'arif Nurul Haroman</td>
+                    <td>2020–2022</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>SMA/SMK</td>
+                    <td>SMK Ma'arif Nurul Haromain</td>
+                    <td>2023-2026</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- CITA-CITA -->
+        <section class="card" id="cita-cita">
+            <h2>🚀 Cita-Cita</h2>
+            <p>
+                Saya bercita-cita menjadi seseorang yang sukses,
+                mandiri, dan mampu membanggakan orang tua.
+                Saya ingin terus belajar agar dapat meraih masa depan
+                yang lebih baik dan memberikan manfaat bagi orang lain.
+            </p>
+        </section>
+
+        <!-- PANDANGAN HIDUP -->
+        <section class="card">
+            <h2>🌱 Pandangan Hidup</h2>
+            <blockquote>
+                "Kesuksesan tidak datang secara instan.
+                Dibutuhkan usaha, doa, kesabaran, dan keberanian
+                untuk terus mencoba."
+            </blockquote>
+            <p style="margin-top: 12px;">
+                Bagi saya, kegagalan bukanlah akhir dari segalanya,
+                melainkan pelajaran untuk menjadi lebih baik.
+                Saya percaya bahwa kerja keras dan sikap pantang
+                menyerah dapat membantu kita mencapai tujuan.
+            </p>
+        </section>
+
+        <!-- KONTAK DAN MEDIA SOSIAL -->
+        <section class="card" id="kontak">
+            <h2>📱 Kontak & Media Sosial</h2>
+            <p>Temukan saya melalui media sosial berikut:</p>
+
+            <div class="social">
+                <a href="https://www.instagram.com/bagastya_01?cplk=MThycHJ2eDRxZjdjNA=="
+                   target="_blank" rel="noopener noreferrer">
+                    Instagram
+                </a>
+
+                <a href="http://tiktok.com/@capek_sama_lu"
+                   target="_blank" rel="noopener noreferrer">
+                    TikTok
+                </a>
+
+                <a href="https://www.google.com/goto?url=CAESVgHrOzAVR3fsBx34zvQ_kLXJLZbRPkaeZd0aGr1GAmBeNoLYH7fPqg8bImAB18xxLjLGo70v_E4_jhhMxb8_jT-ps-VEkd0CLXYEKopbTGuW0JnkfzUg"
+                   target="_blank" rel="noopener noreferrer">
+                    GitHub
+                </a>
+
+                <a href="mailto:Bagastya001@gmail.com">
+                    Email
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2026 CV Pribadi - Bagastya Anjay Well🤟</p>
+        <p>Dibuat dengan semangat belajar HTML dan CSS ❤️</p>
+    </footer>
+
+</body>
+</html>
